@@ -6,7 +6,7 @@ public:
                 if(i == j){
                     continue;
                 }
-                if(i!=j && nums[i] + nums[j] == target){
+                if(nums[i] + nums[j] == target){
                     return {i,j};
                 }
             }
