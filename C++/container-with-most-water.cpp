@@ -9,20 +9,24 @@ public:
 
         int maxWater = 0;
 
-        for (int j = height.size() - 1; j < height.size(); j--)
+        int i = 0;
+        int j = height.size() - 1;
+
+        while (i < j)
         {
-            for (int i = 0; i < height.size(); i++)
+            int maxHeight = min(height[i], height[j]);
+            int water = maxHeight * (j - i);
+            if (water > maxWater)
             {
-                if (i == j)
-                {
-                    break;
-                }
-                int maxHeight = min(height[i], height[j]);
-                int water = maxHeight * (j - i);
-                if (water > maxWater)
-                {
-                    maxWater = water;
-                }
+                maxWater = water;
+            }
+            while (height[i] <= maxHeight && i < j)
+            {
+                i++;
+            }
+            while (height[j] <= maxHeight && i < j)
+            {
+                j--;
             }
         }
 
