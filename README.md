@@ -5,7 +5,7 @@ Solutions for LeetCode in C++/TypeScript/Java
 
 ### TypeScript
 
-- Add Two Numbers 
+- [Add Two Numbers](https://shanabunny.com/?p=565) 
 - Median of Two Sorted Array
 - Remove Duplicates
 - Reverse Integer
