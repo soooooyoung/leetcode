@@ -3,6 +3,9 @@ Solutions for LeetCode in C++/TypeScript/Java
 
 ## Contents
 
+Click on each title for related blog post. 
+클릭시에 관련 블로그 포스팅으로 이동합니다.
+
 ### TypeScript
 
 - [Add Two Numbers](https://shanabunny.com/?p=565) 
