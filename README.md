@@ -1,4 +1,4 @@
-# leetcode
+# LeetCode Solutions
 Solutions for LeetCode in C++/TypeScript/Java
 
 ## Contents
